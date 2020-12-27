@@ -15,7 +15,7 @@ def process_song_file(cur, filepath):
     
     """
     # open song file
-    filepath = 'data/song_data/A/A/B/TRAABLR128F423B7E3.json'
+    #filepath = 'data/song_data/A/A/B/TRAABLR128F423B7E3.json'
     df = pd.read_json(filepath, lines=True)
     
     """
@@ -42,7 +42,7 @@ def process_log_file(cur, filepath):
     - This data is futher used to create time and users dimension table and songplay fact table. 
     
     """
-    filepath = 'data/log_data/2018/11/2018-11-01-events.json'
+    #filepath = 'data/log_data/2018/11/2018-11-01-events.json'
     #log_files = get_files(filepath)
     df1 =  pd.read_json(filepath, lines=True) 
     
